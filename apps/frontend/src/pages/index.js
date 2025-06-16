@@ -1,22 +1,9 @@
 import Head from 'next/head';
 import HomePage from './home';
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import '../firebase';
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDYYQjhHNrILVPC2_JkIn_4xkpj481u0LY",
-  authDomain: "fir-project-152cf.firebaseapp.com",
-  projectId: "fir-project-152cf",
-  storageBucket: "fir-project-152cf.firebasestorage.app",
-  messagingSenderId: "56768052108",
-  appId: "1:56768052108:web:9eadcdaba73275ea1074a9"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 export default function Home() {
   return (
     <>
