@@ -59,4 +59,4 @@ npm run start
 - Backend: Express
 - Authentication: Firebase Auth
 - Maps: Mapbox
-- Database: MongoDB (planned) 
+- Database: MongoDB
